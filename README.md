@@ -10,4 +10,5 @@ Add the following variable to your `.env` file. It should not be uploaded to ver
 
 ```
 ONEBIO_API_KEY=your_api_key
+ONEBIO_USERNAME=your_username (including the '@')
 ```
