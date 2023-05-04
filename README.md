@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a OneBio (https://oneb.io) starter project based on Next.js with TypeScript and Tailwind CSS. The goal of this project is to display a OneBio member's Thought Stream on their own website so they can configure the style of their thought stream to match their existing design, etc.
+This is a OneBio (https://oneb.io) starter project based on Next.js with TypeScript and Tailwind CSS. The goal of this project is to display a OneBio member's Thought Stream on their own website so they can configure the style of their Thought Stream to match their existing design, etc.
 
 To get started, clone this project and update your configuration as follows:
 
