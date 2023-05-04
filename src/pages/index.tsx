@@ -13,12 +13,26 @@ export default function Home() {
         Next.js Examples
       </h1>
 
-      <ul>
+      <ul className="flex flex-col justify-start items-start space-y-4">
         <li>
-          <Link href="/basic" className="text-blue-600 underline">
-            Basic
+          <Link href="/ssr" className="text-blue-600 underline">
+            Fetch thoughts using getServerSideProps
           </Link>
-          : displays a member's thought stream with no frills
+          : data retrieved at request time.
+        </li>
+
+        <li>
+          <Link href="/ssg" className="text-blue-600 underline">
+            Fetch thoughts using getStaticProps
+          </Link>
+          : data retrieved at build time.
+        </li>
+
+        <li>
+          <Link href="/stringify" className="text-blue-600 underline">
+            View thoughts as JSON
+          </Link>
+          : displays all available API thought properties using SSG.
         </li>
       </ul>
     </div>
