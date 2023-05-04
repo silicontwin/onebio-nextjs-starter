@@ -12,7 +12,8 @@ To get started, clone this project and update your configuration as follows:
 
 ### Add your OneBio API Key
 
-Add the following variables to your `.env` file. It should not be uploaded to version control, and will need to be added to the infrastructure provider you're deploying with (e.g., Vercel).
+1. Sign in to your account on https://oneb.io to generate and copy your API Key from your Settings page at: https://oneb.io/settings.
+2. Add the following variables to your `.env` file. It should not be uploaded to version control, and will need to be added to the infrastructure provider you're deploying with (e.g., Vercel).
 
 ```
 ONEBIO_API_KEY=your_api_key
