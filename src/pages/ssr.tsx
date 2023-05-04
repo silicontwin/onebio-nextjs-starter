@@ -23,7 +23,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 
 // -----------------------------------------------------------------------------
 
-interface BasicProps {
+interface SSRExampleProps {
   thoughts: {
     url: string;
     content: string;
@@ -36,7 +36,7 @@ interface BasicProps {
 
 // -----------------------------------------------------------------------------
 
-const Basic = ({ thoughts }: BasicProps) => {
+const SSRExample = ({ thoughts }: SSRExampleProps) => {
   return (
     <div className="p-20">
       <ul className="flex flex-col justify-start items-start space-y-4">
@@ -71,4 +71,4 @@ const Basic = ({ thoughts }: BasicProps) => {
   );
 };
 
-export default Basic;
+export default SSRExample;
