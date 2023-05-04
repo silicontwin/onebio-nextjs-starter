@@ -32,7 +32,7 @@ export default function Home() {
           <Link href="/stringify" className="text-blue-600 underline">
             View thoughts as JSON
           </Link>
-          : displays all available API thought properties using SSG.
+          : displays all available Thought properties using SSG.
         </li>
       </ul>
     </div>
